@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url(https://www.tringfireworks.co.uk/wp-content/uploads/2015/11/nature-wallpapers-beautiful-sunrise-wallpaper-31169.jpg);
+}
+
+.container {
+  text-align: center;
+}
+
+#yourName {
+  font-size: 16em;
+  color: #3498db;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  #yourName {
+    font-size: 4em;
+  }
+}
